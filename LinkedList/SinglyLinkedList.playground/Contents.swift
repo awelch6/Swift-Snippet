@@ -71,6 +71,11 @@ extension SinglyLinkedList: Linkable {
             tempNode = tempNode?.next
         }
     }
+    
+    func reverse() -> SinglyLinkedList {
+        
+        return SinglyLinkedList(7)
+    }
 }
 
 extension SinglyLinkedList: CustomStringConvertible {
